@@ -1,0 +1,93 @@
+@import "tailwindcss";
+
+html, body {
+  margin: 0; 
+  padding: 0; 
+  font-family: "Space Grotesk", sans-serif;
+  background: #0a123b;
+  color: #fff;
+
+}
+
+@layer utilities {
+  @keyframes fish-tail-movement {
+  
+    0% {
+      transform: translateX(110vw) skewY(5deg) translateY(3vh);
+    }
+
+    25% {
+      transform: translateX(55vw) skewY(-5deg) translateY(1.5vh);
+    }
+
+    50% {
+      transform: translateX(0) skewY(5deg) translateY(0);
+    }
+
+    75% {
+      transform: translateX(-55vw) skewY(-5deg) translateY(-1.5vh);
+    }
+
+
+    100% {
+      transform: translateX(-110vw) skewY(5deg) translateY(-3vh);
+    }
+
+  }
+  .animate-fish-tail-movement {
+    animation: fish-tail-movement var(--duration, 6s) linear infinite;
+  }
+
+
+  @keyframes fish-movement {
+  
+    0% {
+      transform: translateX(110vw) rotate(3deg) translateY(3vh);
+    }
+
+    50% {
+      transform: translateX(0) rotate(-3deg) translateY(0);
+    }
+
+
+    100% {
+      transform: translateX(-110vw) rotate(3deg) translateY(-3vh);
+    }
+
+  }
+  .animate-fish-movement {
+    animation: fish-movement var(--duration, 6s) linear infinite;
+  }
+
+
+
+
+   
+  @keyframes blink {
+    0%, 100% {
+      opacity: 1;
+    }
+
+    50% {
+      opacity: 0; 
+    }
+  }
+  .animate-blink {
+    animation: blink 0.8s step-end infinite;
+  }
+
+
+  @keyframes loading {
+    0% {
+      transform: translateX(-100%);
+    }
+
+    100% {
+      transform: translateX(250%);
+    }
+  }
+
+  .animate-loading-bar {
+    animation: loading 0.8s ease infinite;
+  }
+}
