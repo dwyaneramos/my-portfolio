@@ -5,11 +5,19 @@ import sharkTailImg from "../assets/shark-tail.png"
 
 export const HomeBG = () => {
   return ( 
+
     <div className="absolute z-60 h-screen w-screen text-4xl overflow-hidden">
-    <School upperY = {30} lowerY = {5} isSlow = {true} isSmall= {true} body = {fishBodyImg} tail = {fishTailImg} amount = {20} widthBoundaries = {[13, 9]} heightFactor = {2 / 3}/>
-    <School upperY = {50} lowerY = {50} isSlow = {true} isSmall= {false} body = {sharkBodyImg} tail = {sharkTailImg} amount = {1} widthBoundaries = {[30, 20]} heightFactor = {5 / 11}/>
+      <School upperY = {30} lowerY = {5} isSlow = {true} isSmall= {true} body = {fishBodyImg} tail = {fishTailImg} amount = {20} widthBoundaries = {[9, 7]} heightFactor = {2 / 3}/>
+      <School upperY = {50} lowerY = {50} isSlow = {true} isSmall= {false} body = {sharkBodyImg} tail = {sharkTailImg} amount = {1} widthBoundaries = {[40, 30]} heightFactor = {5 / 11}/>
     </div>
 
+  )
+}
+
+
+export const Title = () => {
+  return (
+  <h1 className="text-8xl w-screen absolute text-center top-1/2 font-mono font-bold">John Smith</h1>
   )
 }
 
