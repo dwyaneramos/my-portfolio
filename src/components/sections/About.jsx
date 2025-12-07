@@ -9,7 +9,7 @@ export const About = () => {
     <section id = "about" className = "relative min-h-screen h-auto flex items-center justify-center">
 
 
-      <div className = "max-w-5xl mx-auto px-4  top-0">
+      <div className = "max-w-5xl mx-auto px-4 top-0">
         <h2 className = "text-5xl font-bold text-center font-mono mb-8 text-white">About Me</h2>
 
         <div className = "rounded-xl bg-[#021738] p-8 border-white/10 border hover:-translate-y-1 transition-all my-5">

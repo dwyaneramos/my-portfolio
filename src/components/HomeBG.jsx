@@ -1,7 +1,7 @@
-import fishBodyImg from "../assets/fish-body.png" 
-import fishTailImg from "../assets/fish-tail.png" 
-import sharkBodyImg from "../assets/shark-body.png" 
-import sharkTailImg from "../assets/shark-tail.png" 
+import fishBodyImg from "../../public/assets/fish-body.png" 
+import fishTailImg from "../../public/assets/fish-tail.png" 
+import sharkBodyImg from "../../public/assets/shark-body.png" 
+import sharkTailImg from "../../public/assets/shark-tail.png" 
 import {useMemo} from "react";
 
 export const HomeBG = () => {
