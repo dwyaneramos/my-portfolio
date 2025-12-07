@@ -3,7 +3,8 @@ import {LoadingScreen} from "./components/LoadingScreen"
 import {Navbar} from "./components/Navbar"
 import {MobileMenu} from "./components/MobileMenu"
 import {HomeBG, Title} from "./components/HomeBG"
-import {About} from "./components/sections/About.jsx" 
+import {About} from "./components/sections/About" 
+import {Projects} from "./components/sections/Projects"
 import "./index.css"
 import {useState, useEffect} from "react";
 
@@ -25,6 +26,7 @@ function App() {
         <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
         <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
         <About/>
+        <Projects/>
 
       </div>
     </>

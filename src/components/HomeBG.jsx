@@ -10,7 +10,7 @@ export const HomeBG = () => {
       <SubTitle/>
       <div className="relative h-screen w-screen text-4xl overflow-hidden">
         <School upperY = {30} lowerY = {5} isSlow = {true} isSmall= {true} body = {fishBodyImg} tail = {fishTailImg} amount = {30} widthBoundaries = {[9, 7]} heightFactor = {2 / 3}/>
-        <School upperY = {45} lowerY = {45} isSlow = {true} isSmall= {false} body = {sharkBodyImg} tail = {sharkTailImg} amount = {1} widthBoundaries = {[40, 30]} heightFactor = {5 / 11}/>
+        <School upperY = {45} lowerY = {45} isSlow = {true} isSmall= {false} body = {sharkBodyImg} tail = {sharkTailImg} amount = {1} widthBoundaries = {[50, 40]} heightFactor = {5 / 11}/>
       </div>
   </div>
   )
@@ -35,7 +35,7 @@ function School({upperY, lowerY, isSlow, isSmall, body, tail, amount, widthBound
   const upperWidth = widthBoundaries[0];
   const lowerWidth = widthBoundaries[1];
   
-  const speedBoundaries = isSlow ? [10, 11] : [6, 7];
+  const speedBoundaries = isSlow ? [20, 22] : [6, 7];
   const upperSpeed = speedBoundaries[1];
   const lowerSpeed = speedBoundaries[0];
 

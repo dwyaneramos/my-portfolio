@@ -4,7 +4,7 @@ html, body {
   margin: 0; 
   padding: 0; 
   font-family: "Space Grotesk", sans-serif;
-  background: #0a123b;
+  background: #011b45;
   color: #fff;
 
 }
@@ -29,14 +29,14 @@ html, body {
 
   @keyframes whole-fish-movement {
     0% {
-      transform: rotate(10deg) translateY(2vh) translateX(110vw);
+      transform: rotate(15deg) translateY(2vh) translateX(200vw);
     }
     
     50%  {
       transform: rotate(0) translateY(0vh) translateX(0);
     }
     100%  {
-      transform: rotate(-10deg) translateY(2vh) translateX(-110vw);
+      transform: rotate(-5deg) translateY(-2vh) translateX(-200vw);
     }
 
   }
