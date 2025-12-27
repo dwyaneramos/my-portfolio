@@ -93,13 +93,13 @@ export const About = () => {
             <div>
               <h4 className ="text-xl font-bold">Mathematics Tutor</h4>
               <p className="mb-3">Sept 2023 - Present</p>
-              <p>Attended to students' needs, and explaining complex topics clearly to students, ranging from year 2 to 13, from various education levels and upbringing</p>
+              <p>Attended to the needs of students ranging from year 2 to year 13 and various education levels and upbringing. I explained complex topics clearly to them and encourage them to try their best</p>
             </div>
 
             <div >
               <h4 className ="text-xl font-bold">Sales Assistant</h4>
               <p className="mb-3">Dec 2021 - Dec 2022</p>
-              <p>Actively engaged with customers and responsible for opening/closing of the store</p>
+              <p>Actively engaged with customers and I was responsible for the opening/closing of the store</p>
             </div>
           </div>
         </div>
